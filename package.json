@@ -1,0 +1,13 @@
+{
+  "name": "aura-social-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AURA — The Dual Reality Social Media Network (Frontend + Backend Monorepo)",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "install:all": "cd frontend && npm install && cd ../backend && npm install"
+  }
+}
